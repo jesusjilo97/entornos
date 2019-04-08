@@ -10,7 +10,7 @@ public class githubdos {
 		// TODO Auto-generated method stub
 
 		Scanner entrada= new Scanner(System.in);
-		alumno a1=new alumno("Jesús","Jiménez");
+		alumno a1=new alumno("EDITADO CON GITHUB");
 		alumno a2=new alumno(a1);
 		System.out.print("a1.getnombre"());
 		System.out.println("a1.getapellido"());
@@ -39,7 +39,7 @@ public class githubdos {
 		System.out.print(a4.getnombre());
 		System.out.print("-");
 		System.out.println(a4.getapellido());
-		System.out.println("Número de alumnos: "+ a4.getnumalumnos() + "-");
+		System.out.println("NÃºmero de alumnos: "+ a4.getnumalumnos() + "-");
 		a4.resultado();
 		System.out.println("La nota final es um: "+ a4.getresultado() + "-");
 		
