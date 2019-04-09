@@ -9,6 +9,8 @@ public class githubdos {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//MODIFICACIÓN DEL PROYECTO EN ECLIPSE
+		
 		Scanner entrada= new Scanner(System.in);
 		alumno a1=new alumno("EDITADO CON GITHUB");
 		alumno a2=new alumno(a1);
